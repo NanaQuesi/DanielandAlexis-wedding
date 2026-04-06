@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Daniel &amp; Alexis | August 22, 2026&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600&amp;family=Great+Vibes&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>:root {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--cream: #F5F0E8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>--charcoal: #2A2A2A;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: var(--cream);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: var(--charcoal);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-script { font-family: 'Great Vibes', cursive; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.font-serif { font-family: 'Cormorant Garamond', serif; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.fade-in {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>animation: fadeIn 1s ease-out forwards;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes fadeIn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>to { opacity: 1; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-1 { animation-delay: 0.3s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-2 { animation-delay: 0.6s; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.delay-3 { animation-delay: 0.9s; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.section-padding { padding: 5rem 1.5rem; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (min-width: 768px) { .section-padding { padding: 7rem 2rem; } }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hover-lift {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: transform 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hover-lift:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-4px);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-link {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-link::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>content: '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>bottom: -4px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 1px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: currentColor;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: width 0.3s ease;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.nav-link:hover::after {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>/* Image containment to show full faces */</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.img-contain {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>object-fit: contain;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f5f0e8;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.img-cover-center {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>object-fit: cover;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>object-position: center top;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="antialiased"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Navigation --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#" class="font-script text-3xl text-stone-800"&gt;D &amp; A&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="hidden md:flex space-x-8 text-sm tracking-wide"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#story" class="nav-link text-stone-600 hover:text-stone-900"&gt;Story&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#schedule" class="nav-link text-stone-600 hover:text-stone-900"&gt;Schedule&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#details" class="nav-link text-stone-600 hover:text-stone-900"&gt;Details&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#gallery" class="nav-link text-stone-600 hover:text-stone-900"&gt;Gallery&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#gifts" class="nav-link text-stone-600 hover:text-stone-900"&gt;Gifts&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#faq" class="nav-link text-stone-600 hover:text-stone-900"&gt;FAQ&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#rsvp" class="bg-stone-800 text-white px-5 py-2 text-sm rounded-full hover:bg-stone-700 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>RSVP</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Hero - Using contain to show full photo --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-stone-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 z-0 flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://images2.imgbox.com/d5/6f/7eOEN3NZ_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                 </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                 </span>class="img-contain max-h-screen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="absolute inset-0 bg-black/40"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="relative z-10 text-center text-white px-6 max-w-3xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm tracking-[0.4em] uppercase mb-6 fade-in"&gt;Save the Date&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="font-script text-7xl md:text-9xl mb-4 fade-in delay-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Daniel &amp; Alexis</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="font-serif text-2xl md:text-3xl mb-8 fade-in delay-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>August 22, 2026</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col md:flex-row items-center justify-center gap-6 text-sm tracking-wider fade-in delay-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Sacred Heart Church, Dereham&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="hidden md:block"&gt;•&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;2:00 PM&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="#rsvp" class="inline-block mt-10 border border-white/50 text-white px-8 py-3 text-sm tracking-widest uppercase hover:bg-white hover:text-stone-900 transition-all duration-300 fade-in delay-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>RSVP Now</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Story - Adjusted to show full body --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="story" class="section-padding bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl mb-12"&gt;Our Story&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-12 items-center mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="order-2 md:order-1 text-left space-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-lg text-stone-600"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>It started with jollof rice at the Hive in UEA. Alexis was enjoying her Nigerian jollof when Daniel appeared and declared, &lt;em class="text-stone-800 font-serif text-xl"&gt;"Ghanaian jollof is much better."&lt;/em&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>That playful debate sparked something neither of us expected. What began as teasing over rice became long conversations, shared laughter, and a connection that felt inevitable.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Like any good recipe, love needs the right ingredients: warmth, trust, and a little spice. We're ready to begin our next chapter together.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="order-1 md:order-2 bg-stone-100 rounded-lg overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/50/7a/zIEEN3DF_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-auto max-h-[600px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Schedule with Embedded Maps --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="schedule" class="section-padding bg-stone-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl text-center mb-16"&gt;The Day&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="space-y-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Church Ceremony with Map --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="font-serif text-2xl text-stone-400 w-32 shrink-0"&gt;2:00 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Ceremony&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-stone-600 text-sm mb-4"&gt;Sacred Heart Catholic Church • 35 London Rd, Dereham, NR19 1AS&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="https://maps.google.com/?q=Sacred+Heart+Catholic+Church,+35+London+Rd,+Dereham,+NR19+1AS"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                               </span>target="_blank"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                               </span>class="text-sm text-stone-500 hover:text-stone-800 underline mb-4 inline-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>Open in Google Maps →</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full h-64 bg-stone-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;iframe<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.456!2d0.9445!3d52.6845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e1c1c1c1c1c1%3A0x1c1c1c1c1c1c1c1c!2sSacred+Heart+Catholic+Church!5e0!3m2!1sen!2suk!4v1234567890"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>width="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>height="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>style="border:0;"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>allowfullscreen=""<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>loading="lazy"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>referrerpolicy="no-referrer-when-downgrade"</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>class="w-full h-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Reception with Map --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="font-serif text-2xl text-stone-400 w-32 shrink-0"&gt;4:00 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Reception&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-stone-600 text-sm mb-4"&gt;Swanton Morley Village Hall • Mann's Ln, Swanton Morley, Dereham, NR20 4NP&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;a href="https://maps.google.com/?q=Swanton+Morley+Village+Hall,+Mann's+Ln,+Swanton+Morley,+Dereham,+NR20+4NP"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                               </span>target="_blank"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                               </span>class="text-sm text-stone-500 hover:text-stone-800 underline mb-4 inline-block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>Open in Google Maps →</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-full h-64 bg-stone-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;iframe<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.567!2d0.9876!3d52.6789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e2d2d2d2d2d2%3A0x2d2d2d2d2d2d2d2d!2sSwanton+Morley+Village+Hall!5e0!3m2!1sen!2suk!4v1234567890"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>width="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>height="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>style="border:0;"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>allowfullscreen=""<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>loading="lazy"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>referrerpolicy="no-referrer-when-downgrade"</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>class="w-full h-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Other schedule items --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6 bg-white rounded-lg hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-serif text-2xl text-stone-400 w-32"&gt;1:30 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Guest Arrival at Church&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-stone-600 text-sm"&gt;Please arrive promptly for 1:30 PM&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6 bg-white rounded-lg hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-serif text-2xl text-stone-400 w-32"&gt;3:00 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Photographs &amp; Travel&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-stone-600 text-sm"&gt;9-minute drive from church to reception venue&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6 bg-white rounded-lg hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-serif text-2xl text-stone-400 w-32"&gt;6:00 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Dinner &amp; Speeches&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-stone-600 text-sm"&gt;Buffet style • Cake cutting at 8:00 PM&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex flex-col md:flex-row gap-6 items-start p-6 bg-white rounded-lg hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="font-serif text-2xl text-stone-400 w-32"&gt;8:10 PM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl mb-1"&gt;Dancing&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-stone-600 text-sm"&gt;First dance • Celebration until midnight&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Gallery - Adjusted to show full images --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="gallery" class="section-padding bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-6xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl text-center mb-12"&gt;Moments Together&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/04/23/GOw7BpXb_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-[400px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/29/21/Bp23hL7O_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-[400px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/63/aa/KGp6xOGZ_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-[400px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-6 mt-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/ea/80/WzT2pbVy_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-[300px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/bb/64/J8AENgxy_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-[300px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Details with Venue Maps --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="details" class="section-padding bg-stone-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl text-center mb-16"&gt;Practical Details&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-8 mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-center p-6 bg-white rounded-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 mx-auto mb-4 rounded-full bg-stone-100 flex items-center justify-center text-2xl"&gt;👔&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-xl mb-3"&gt;Dress Code&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600 text-sm"&gt;Dress to impress. No jeans, trainers, or joggers please.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-center p-6 bg-white rounded-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 mx-auto mb-4 rounded-full bg-stone-100 flex items-center justify-center text-2xl"&gt;🚗&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-xl mb-3"&gt;Parking&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600 text-sm"&gt;Free on-site parking at both venues. CCTV monitored overnight if needed.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-center p-6 bg-white rounded-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 mx-auto mb-4 rounded-full bg-stone-100 flex items-center justify-center text-2xl"&gt;🏨&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-xl mb-3"&gt;Accommodation&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://greenbankshotel.co.uk" target="_blank" class="underline hover:text-stone-900"&gt;Greenbanks Hotel&lt;/a&gt; (16 min)&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://barnhambroom.com" target="_blank" class="underline hover:text-stone-900"&gt;Barnham Broom&lt;/a&gt; (19 min)&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://airbnb.com" target="_blank" class="underline hover:text-stone-900"&gt;Airbnb&lt;/a&gt; options nearby</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Venue Maps Detail --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-8 mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4 border-b border-stone-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl"&gt;Ceremony Location&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-stone-600"&gt;Sacred Heart Catholic Church&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-64 bg-stone-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;iframe<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.456!2d0.9445!3d52.6845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e1c1c1c1c1c1%3A0x1c1c1c1c1c1c1c1c!2sSacred+Heart+Catholic+Church!5e0!3m2!1sen!2suk!4v1234567890"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>width="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>height="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>style="border:0;"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>allowfullscreen=""<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>loading="lazy"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>referrerpolicy="no-referrer-when-downgrade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://maps.google.com/?q=Sacred+Heart+Catholic+Church,+35+London+Rd,+Dereham,+NR19+1AS"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                           </span>target="_blank"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                           </span>class="text-sm text-stone-600 hover:text-stone-900 underline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>Get Directions →</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4 border-b border-stone-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="font-serif text-xl"&gt;Reception Location&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-stone-600"&gt;Swanton Morley Village Hall&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="h-64 bg-stone-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;iframe<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.567!2d0.9876!3d52.6789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9e2d2d2d2d2d2%3A0x2d2d2d2d2d2d2d2d!2sSwanton+Morley+Village+Hall!5e0!3m2!1sen!2suk!4v1234567890"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>width="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>height="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>style="border:0;"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>allowfullscreen=""<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>loading="lazy"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>referrerpolicy="no-referrer-when-downgrade"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://maps.google.com/?q=Swanton+Morley+Village+Hall,+Mann's+Ln,+Swanton+Morley,+Dereham,+NR20+4NP"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                           </span>target="_blank"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                           </span>class="text-sm text-stone-600 hover:text-stone-900 underline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>Get Directions →</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Taxi Info with Image --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-8 items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-100 rounded-lg overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="https://images2.imgbox.com/3a/f6/vXUdEBgw_o.jpg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Daniel and Alexis"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="img-contain w-full h-64"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="p-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-2xl mb-4"&gt;Need a Taxi?&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="space-y-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between border-b border-stone-200 pb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="font-medium"&gt;Dereham Taxi&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-stone-600"&gt;01362 696161&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between border-b border-stone-200 pb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="font-medium"&gt;Direct Taxi&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-stone-600"&gt;01362 685504&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="font-medium"&gt;Ace Taxi&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-stone-600"&gt;01362 853144&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- FAQ --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="faq" class="section-padding bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-3xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl text-center mb-12"&gt;Questions&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="space-y-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;details class="group bg-stone-50 rounded-lg p-6 cursor-pointer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;summary class="font-serif text-lg list-none flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>When is the RSVP deadline?</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="transition group-open:rotate-180"&gt;↓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/summary&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-stone-600 text-sm"&gt;Please respond by June 13th, 2026. After that, we'll assume you can't make it.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/details&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;details class="group bg-stone-50 rounded-lg p-6 cursor-pointer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;summary class="font-serif text-lg list-none flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Are children welcome?</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="transition group-open:rotate-180"&gt;↓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/summary&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-stone-600 text-sm"&gt;Yes, children are invited. Please note they remain your responsibility during the event, and there's no separate kids menu.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/details&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;details class="group bg-stone-50 rounded-lg p-6 cursor-pointer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;summary class="font-serif text-lg list-none flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Are the ceremony and reception at the same place?</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="transition group-open:rotate-180"&gt;↓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/summary&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-stone-600 text-sm"&gt;No—the ceremony is in Dereham and the reception is a 9-minute drive away in Swanton Morley. Please plan transport accordingly.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/details&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;details class="group bg-stone-50 rounded-lg p-6 cursor-pointer"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;summary class="font-serif text-lg list-none flex justify-between items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Can I leave my car overnight?</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="transition group-open:rotate-180"&gt;↓&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/summary&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-stone-600 text-sm"&gt;Yes, the reception venue has CCTV-monitored parking. Pick up your car the next morning if needed.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/details&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Gifts --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="gifts" class="section-padding bg-stone-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-serif text-4xl md:text-5xl text-center mb-4"&gt;Gifts&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-center text-stone-600 mb-16 max-w-2xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Your presence at our wedding is the greatest gift of all. If you would like to honour us with a present, we have two options for you.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-2 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Money Pool --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-stone-800 text-white p-8 rounded-lg hover-lift relative overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="absolute top-4 right-4 bg-white/20 px-3 py-1 rounded-full text-xs tracking-widest uppercase"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Most Popular</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-2xl mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>🏠</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-2xl mb-4"&gt;Help Us Build Our Home&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-300 mb-6 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>As we begin our married life together, we're saving towards our first home. Your contribution to our &lt;strong&gt;Honeymoon &amp; Home Fund&lt;/strong&gt; would mean the world to us — whether it's £20 towards new kitchenware or £100 towards our future deposit.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="https://prezola.com/buy/view/324977"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                       </span>target="_blank"</p>
+<p class="p1"><span class="Apple-converted-space">                       </span>class="inline-block bg-white text-stone-900 px-8 py-4 text-sm tracking-widest uppercase hover:bg-stone-200 transition-colors rounded-full w-full text-center font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Contribute to Our Fund →</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-400 text-xs mt-4 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Secure payment via Prezola • Any amount welcome</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Amazon Registry --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white p-8 rounded-lg hover-lift"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 rounded-full bg-stone-200 flex items-center justify-center text-2xl mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>🎁</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="font-serif text-2xl mb-4 text-stone-800"&gt;Traditional Gift Registry&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-stone-600 mb-6 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>We've also curated a selection of items for our home on Amazon — from kitchen essentials to cozy home comforts.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="https://www.amazon.co.uk/wedding/share/AlexisDanielAidoo"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                       </span>target="_blank"</p>
+<p class="p1"><span class="Apple-converted-space">                       </span>class="inline-block border-2 border-stone-800 text-stone-800 px-8 py-4 text-sm tracking-widest uppercase hover:bg-stone-800 hover:text-white transition-colors rounded-full w-full text-center font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>View Amazon Registry →</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12 p-6 bg-stone-100 rounded-lg text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-stone-600 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong&gt;Prefer to give in person?&lt;/strong&gt; There will be a secure gift table at the reception for cards and physical gifts.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- RSVP --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="rsvp" class="section-padding bg-stone-800 text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-2xl mx-auto text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="font-script text-6xl mb-4"&gt;RSVP&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-stone-400 mb-4 text-sm tracking-widest uppercase"&gt;By June 13th, 2026&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-stone-300 mb-8 max-w-lg mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Please let us know if you'll be joining us for our special day.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSd9IjIBQVkFs6XkUcxgywYbeEMGVqJFZlXqpJ2d9xt-CPS_CQ/viewform"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">               </span>target="_blank"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>class="inline-block bg-white text-stone-900 px-12 py-5 text-sm tracking-[0.2em] uppercase hover:bg-stone-200 transition-colors rounded-full font-medium mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Open RSVP Form →</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-stone-500 text-xs"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>You'll be redirected to Google Forms</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Embedded Google Form --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-12 border-t border-stone-700 pt-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-stone-400 text-sm mb-4"&gt;Or fill out here:&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white rounded-lg overflow-hidden shadow-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9IjIBQVkFs6XkUcxgywYbeEMGVqJFZlXqpJ2d9xt-CPS_CQ/viewform?embedded=true"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>width="100%"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>height="800"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>frameborder="0"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>marginheight="0"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                            </span>marginwidth="0"</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>class="w-full"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Loading…</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/iframe&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-stone-900 text-stone-400 py-12 text-center text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="font-script text-4xl text-stone-300 mb-2"&gt;Daniel &amp; Alexis&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;August 22, 2026 • Dereham, Norfolk&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="mt-4 text-stone-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Questions? &lt;a href="mailto:Alexispereira@hotmail.co.uk" class="underline hover:text-stone-300"&gt;Alexispereira@hotmail.co.uk&lt;/a&gt; or<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="mailto:nanaquesiaidoo@gmail.com" class="underline hover:text-stone-300"&gt;nanaquesiaidoo@gmail.com&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
